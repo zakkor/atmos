@@ -217,7 +217,7 @@ void Parser::parseLevel(Level& level, vector<Character>& characters)
         {
             Parser newParser = Parser();
             cout << "    ";
-            newParser.loadFile(statementText);
+            newParser.loadFile("Scripts/" + statementText);
             Dialogue newDialogue = Dialogue();
             newParser.parseDialogue(newDialogue, characters);
             level.addDialogue(statementText, newDialogue);

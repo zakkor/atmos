@@ -42,8 +42,11 @@ void Level::run(TCODImage *bg, Sound& sound, vector<Character>& characters)
         }
         else if (statementType == "image")
         {
+            std::string imageFilename;
+            imageFilename = "Media/" + statements.at(currentLine).text;
+
             delete bg;
-            bg = new TCODImage(statements.at(currentLine).text.c_str());
+            bg = new TCODImage(imageFilename.c_str());
             //Fade
 ///            for (int fade = 255; fade >= 0; fade--)
 ///            {
@@ -54,7 +57,10 @@ void Level::run(TCODImage *bg, Sound& sound, vector<Character>& characters)
         }
         else if (statementType == "sound")
         {
-            sound.playSound(statements.at(currentLine).text.c_str());
+            std::string soundFilename;
+            soundFilename = "Media/" + statements.at(currentLine).text;
+
+            sound.playSound(soundFilename);
         }
         else if (statementType == "dialogue")
         {
