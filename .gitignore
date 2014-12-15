@@ -30,3 +30,9 @@
 *.out
 *.app
 
+# CodeBlocks Project Files
+*.cbp
+*.layout
+
+#
+
