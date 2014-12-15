@@ -1,0 +1,463 @@
+# depslib dependency file v1.0
+1410115532 source:c:\users\edward\documents\programs\text_game\main.cpp
+	"Game.h"
+
+1364414624 c:\libtcod-1.5.2\include\libtcod.hpp
+	"libtcod.h"
+	"list.hpp"
+	"color.hpp"
+	"console.hpp"
+	"image.hpp"
+	"sys.hpp"
+	"mersenne.hpp"
+	"mouse.hpp"
+	"bresenham.hpp"
+	"noise.hpp"
+	"fov.hpp"
+	"path.hpp"
+	"lex.hpp"
+	"parser.hpp"
+	"tree.hpp"
+	"bsp.hpp"
+	"heightmap.hpp"
+	"zip.hpp"
+	"namegen.hpp"
+	"txtfield.hpp"
+
+1364414624 c:\libtcod-1.5.2\include\libtcod.h
+	<wchar.h>
+	"SDL/SDL.h"
+	"list.h"
+	"color.h"
+	"console.h"
+	"image.h"
+	"mouse.h"
+	"sys.h"
+	"mersenne.h"
+	"bresenham.h"
+	"noise.h"
+	"fov.h"
+	"path.h"
+	"lex.h"
+	"parser.h"
+	"tree.h"
+	"bsp.h"
+	"heightmap.h"
+	"zip.h"
+	"namegen.h"
+	"txtfield.h"
+
+1364414624 c:\libtcod-1.5.2\include\list.h
+
+1364414624 c:\libtcod-1.5.2\include\color.h
+
+1364414624 c:\libtcod-1.5.2\include\console.h
+	"console_types.h"
+
+1364414624 c:\libtcod-1.5.2\include\console_types.h
+
+1364414624 c:\libtcod-1.5.2\include\image.h
+
+1364414624 c:\libtcod-1.5.2\include\mouse.h
+	"mouse_types.h"
+
+1364414624 c:\libtcod-1.5.2\include\mouse_types.h
+
+1364414624 c:\libtcod-1.5.2\include\sys.h
+
+1364414624 c:\libtcod-1.5.2\include\mersenne.h
+	"mersenne_types.h"
+
+1364414624 c:\libtcod-1.5.2\include\mersenne_types.h
+
+1364414624 c:\libtcod-1.5.2\include\bresenham.h
+
+1364414624 c:\libtcod-1.5.2\include\noise.h
+	"noise_defaults.h"
+
+1364414624 c:\libtcod-1.5.2\include\noise_defaults.h
+
+1364414624 c:\libtcod-1.5.2\include\fov.h
+	"fov_types.h"
+
+1364414624 c:\libtcod-1.5.2\include\fov_types.h
+
+1364414624 c:\libtcod-1.5.2\include\path.h
+
+1364414624 c:\libtcod-1.5.2\include\lex.h
+
+1364414624 c:\libtcod-1.5.2\include\parser.h
+
+1364414624 c:\libtcod-1.5.2\include\tree.h
+
+1364414624 c:\libtcod-1.5.2\include\bsp.h
+
+1364414624 c:\libtcod-1.5.2\include\heightmap.h
+
+1364414624 c:\libtcod-1.5.2\include\zip.h
+
+1364414624 c:\libtcod-1.5.2\include\namegen.h
+
+1364414624 c:\libtcod-1.5.2\include\txtfield.h
+
+1364414624 c:\libtcod-1.5.2\include\list.hpp
+	<string.h>
+	<stdlib.h>
+
+1364414624 c:\libtcod-1.5.2\include\color.hpp
+
+1364414624 c:\libtcod-1.5.2\include\console.hpp
+	"console_types.h"
+
+1364414624 c:\libtcod-1.5.2\include\image.hpp
+
+1364414624 c:\libtcod-1.5.2\include\sys.hpp
+
+1364414624 c:\libtcod-1.5.2\include\mersenne.hpp
+	"mersenne_types.h"
+
+1364414624 c:\libtcod-1.5.2\include\mouse.hpp
+	"mouse_types.h"
+
+1364414624 c:\libtcod-1.5.2\include\bresenham.hpp
+
+1364414624 c:\libtcod-1.5.2\include\noise.hpp
+	"noise_defaults.h"
+
+1364414624 c:\libtcod-1.5.2\include\fov.hpp
+	"fov_types.h"
+
+1364414624 c:\libtcod-1.5.2\include\path.hpp
+
+1364414624 c:\libtcod-1.5.2\include\lex.hpp
+
+1364414624 c:\libtcod-1.5.2\include\parser.hpp
+
+1364414624 c:\libtcod-1.5.2\include\tree.hpp
+
+1364414624 c:\libtcod-1.5.2\include\bsp.hpp
+
+1364414624 c:\libtcod-1.5.2\include\heightmap.hpp
+
+1364414624 c:\libtcod-1.5.2\include\zip.hpp
+
+1364414624 c:\libtcod-1.5.2\include\namegen.hpp
+
+1364414624 c:\libtcod-1.5.2\include\txtfield.hpp
+	"color.hpp"
+
+1411156690 source:c:\users\edward\documents\programs\text_game\game.cpp
+	"Game.h"
+	<iostream>
+	<vector>
+
+1411149699 c:\users\edward\documents\programs\text_game\game.h
+	"Parser.hpp"
+	"Config.hpp"
+
+1367993678 c:\sfml-2.1\include\sfml\audio.hpp
+	<SFML/System.hpp>
+	<SFML/Audio/Listener.hpp>
+	<SFML/Audio/Music.hpp>
+	<SFML/Audio/Sound.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundBufferRecorder.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<SFML/Audio/SoundStream.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Err.hpp>
+	<SFML/System/InputStream.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/String.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.hpp>
+	<SFML/System/Utf.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1374386532 c:\sfml-2.1\include\sfml\config.hpp
+
+1367993681 c:\sfml-2.1\include\sfml\system\clock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system\export.hpp
+	<SFML/Config.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system\time.hpp
+	<SFML/System/Export.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system\err.hpp
+	<SFML/System/Export.hpp>
+	<ostream>
+
+1368095772 c:\sfml-2.1\include\sfml\system\inputstream.hpp
+	<SFML/Config.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system\lock.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system\noncopyable.hpp
+	<SFML/System/Export.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system\mutex.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system\sleep.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/Time.hpp>
+
+1367993681 c:\sfml-2.1\include\sfml\system\string.hpp
+	<SFML/System/Export.hpp>
+	<locale>
+	<string>
+
+1367993681 c:\sfml-2.1\include\sfml\system\thread.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+	<SFML/System/Thread.inl>
+
+1367993681 c:\sfml-2.1\include\sfml\system\thread.inl
+
+1367993681 c:\sfml-2.1\include\sfml\system\threadlocal.hpp
+	<SFML/System/Export.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<cstdlib>
+
+1367993681 c:\sfml-2.1\include\sfml\system\threadlocalptr.hpp
+	<SFML/System/ThreadLocal.hpp>
+	<SFML/System/ThreadLocalPtr.inl>
+
+1367993681 c:\sfml-2.1\include\sfml\system\threadlocalptr.inl
+
+1367993681 c:\sfml-2.1\include\sfml\system\utf.hpp
+	<SFML/Config.hpp>
+	<algorithm>
+	<locale>
+	<string>
+	<cstdlib>
+	<SFML/System/Utf.inl>
+
+1372049822 c:\sfml-2.1\include\sfml\system\utf.inl
+
+1367993681 c:\sfml-2.1\include\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1367993681 c:\sfml-2.1\include\sfml\system\vector2.inl
+
+1367993681 c:\sfml-2.1\include\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1367993681 c:\sfml-2.1\include\sfml\system\vector3.inl
+
+1367993678 c:\sfml-2.1\include\sfml\audio\listener.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1367993678 c:\sfml-2.1\include\sfml\audio\export.hpp
+	<SFML/Config.hpp>
+
+1367993678 c:\sfml-2.1\include\sfml\audio\music.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundStream.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+
+1367993678 c:\sfml-2.1\include\sfml\audio\soundstream.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1367993678 c:\sfml-2.1\include\sfml\audio\soundsource.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Vector3.hpp>
+
+1367993678 c:\sfml-2.1\include\sfml\audio\sound.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundSource.hpp>
+	<SFML/System/Time.hpp>
+	<cstdlib>
+
+1367993678 c:\sfml-2.1\include\sfml\audio\soundbuffer.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Time.hpp>
+	<string>
+	<vector>
+	<set>
+
+1367993678 c:\sfml-2.1\include\sfml\audio\soundbufferrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/Audio/SoundBuffer.hpp>
+	<SFML/Audio/SoundRecorder.hpp>
+	<vector>
+
+1367993678 c:\sfml-2.1\include\sfml\audio\soundrecorder.hpp
+	<SFML/Audio/Export.hpp>
+	<SFML/System/Thread.hpp>
+	<vector>
+
+1335935950 c:\pugixml\src\pugixml.hpp
+	"pugiconfig.hpp"
+	<stddef.h>
+	<exception>
+	<iterator>
+	<iosfwd>
+	<string>
+
+1335720148 c:\pugixml\src\pugiconfig.hpp
+
+1409390932 source:c:\users\edward\documents\programs\text_game\node.cpp
+
+1409946564 c:\users\edward\documents\programs\text_game\node.h
+	<deque>
+	<string>
+
+1410120136 source:c:\users\edward\documents\programs\text_game\tree.cpp
+	"Tree.h"
+
+1410119458 c:\users\edward\documents\programs\text_game\tree.h
+	"Node.h"
+	<iostream>
+
+1411043445 source:c:\users\edward\documents\programs\text_game\parser.cpp
+	"Parser.hpp"
+
+1409941118 c:\users\edward\documents\programs\text_game\parser.h
+	<string>
+	<vector>
+	<fstream>
+	<sstream>
+	<iostream>
+	<stdlib.h>
+	"Tree.h"
+
+1410707112 c:\users\edward\documents\programs\text_game\parser.hpp
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<stdlib.h>
+	"Character.hpp"
+	"Level.hpp"
+
+1410756568 c:\users\edward\documents\programs\text_game\dialogue.hpp
+	<vector>
+	<string>
+	<iostream>
+	"libtcod.hpp"
+	<stdio.h>
+	<stdlib.h>
+	"Character.hpp"
+	"Config.hpp"
+
+1416653542 source:c:\users\edward\documents\programs\text_game\dialogue.cpp
+	"Dialogue.hpp"
+
+1410623128 c:\users\edward\documents\programs\text_game\character.hpp
+	<map>
+	<string>
+
+1410623136 source:c:\users\edward\documents\programs\text_game\character.cpp
+	"Character.hpp"
+
+1411145827 source:c:\users\edward\documents\programs\text_game\level.cpp
+	"Level.hpp"
+
+1411144381 c:\users\edward\documents\programs\text_game\level.hpp
+	<string>
+	<vector>
+	<map>
+	"Config.hpp"
+	"Dialogue.hpp"
+	"Sound.hpp"
+
+1410716134 c:\users\edward\documents\programs\text_game\config.hpp
+
+1411145750 c:\users\edward\documents\programs\text_game\sound.hpp
+	<SFML/Audio.hpp>
+	<string>
+	<iostream>
+
+1411150638 source:c:\users\edward\documents\programs\text_game\sound.cpp
+	"Sound.hpp"
+
+1410623136 source:c:\users\edward\documents\github-projects\atmos\src\character.cpp
+	"Character.hpp"
+
+1410623128 c:\users\edward\documents\github-projects\atmos\src\character.hpp
+	<map>
+	<string>
+
+1416653542 source:c:\users\edward\documents\github-projects\atmos\src\dialogue.cpp
+	"Dialogue.hpp"
+
+1410756568 c:\users\edward\documents\github-projects\atmos\src\dialogue.hpp
+	<vector>
+	<string>
+	<iostream>
+	"libtcod.hpp"
+	<stdio.h>
+	<stdlib.h>
+	"Character.hpp"
+	"Config.hpp"
+
+1410716134 c:\users\edward\documents\github-projects\atmos\src\config.hpp
+
+1418646921 source:c:\users\edward\documents\github-projects\atmos\src\game.cpp
+	"Game.h"
+	<iostream>
+	<vector>
+
+1411149699 c:\users\edward\documents\github-projects\atmos\src\game.h
+	"Parser.hpp"
+	"Config.hpp"
+
+1410707112 c:\users\edward\documents\github-projects\atmos\src\parser.hpp
+	<vector>
+	<string>
+	<fstream>
+	<sstream>
+	<iostream>
+	<stdlib.h>
+	"Character.hpp"
+	"Level.hpp"
+
+1411144381 c:\users\edward\documents\github-projects\atmos\src\level.hpp
+	<string>
+	<vector>
+	<map>
+	"Config.hpp"
+	"Dialogue.hpp"
+	"Sound.hpp"
+
+1411145750 c:\users\edward\documents\github-projects\atmos\src\sound.hpp
+	<SFML/Audio.hpp>
+	<string>
+	<iostream>
+
+1411145827 source:c:\users\edward\documents\github-projects\atmos\src\level.cpp
+	"Level.hpp"
+
+1410115532 source:c:\users\edward\documents\github-projects\atmos\src\main.cpp
+	"Game.h"
+
+1411043445 source:c:\users\edward\documents\github-projects\atmos\src\parser.cpp
+	"Parser.hpp"
+
+1411150638 source:c:\users\edward\documents\github-projects\atmos\src\sound.cpp
+	"Sound.hpp"
+

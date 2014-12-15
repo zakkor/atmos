@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="text_game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="obj/Debug/text_game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/o/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="..\..\..\..\..\..\libtcod-1.5.2\lib\libtcod-mingw-debug.a" />
+					<Add library="..\..\..\..\..\..\SFML-2.1\lib\libsfml-audio-d.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="obj/Release/text_game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/o/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="..\..\..\..\..\libtcod-1.5.2\lib\libtcod-mingw.a" />
+					<Add library="..\..\..\..\..\SFML-2.1\lib\libsfml-audio.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-pedantic" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../../../libtcod-1.5.2/include" />
+			<Add directory="../../../../../../SFML-2.1/include" />
+		</Compiler>
+		<Linker>
+			<Add directory="../../../../../SFML-2.1/lib" />
+		</Linker>
+		<Unit filename="Character.cpp" />
+		<Unit filename="Character.hpp" />
+		<Unit filename="Config.hpp" />
+		<Unit filename="Dialogue.cpp" />
+		<Unit filename="Dialogue.hpp" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="Level.cpp" />
+		<Unit filename="Level.hpp" />
+		<Unit filename="Parser.cpp" />
+		<Unit filename="Parser.hpp" />
+		<Unit filename="Sound.cpp" />
+		<Unit filename="Sound.hpp" />
+		<Unit filename="characters.txt" />
+		<Unit filename="dialog.txt" />
+		<Unit filename="game.txt" />
+		<Unit filename="level.txt" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
